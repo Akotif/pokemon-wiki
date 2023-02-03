@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.favoriteButton {
+  background-color: rgb(42, 136, 73);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.favoriteYellow{
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.searchBar {
+  color: rgb(42, 136, 73);
+  margin-top: 5%;
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #d2ffd4;
+  height: 2rem;
+  text-align: center;
+  border: 1px solid rgb(42, 136, 73);
+  
+}
+
+.deneme {
+  width: 100%;
+  height: 50%;
+  background-color: azure;
+}
+
+.StatRow {
+  margin-top: 0;
+  font-size: 10px;
+  margin-left: 0px;
+  padding-top: 20px;
+  height: 25px;
+}
+
+.tableButton {
+  width: 13rem;
+  background-color: rgb(42, 136, 73);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.tableInfo {
+  width: 13rem;
+  height: 10rem;
+}
+
+.categories {
+  text-align: center;
+  padding: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.categoriesActive {
+  padding: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.stats {
+  font-size: 11px;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.statsLeft {
+  margin-right: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.moves {
+  float: left;
+  text-align: center;
+  padding-right: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.movesLeft {
+  float: right;
+  text-align: center;
+  padding-right: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.EvolvesRow {
+  text-align: center;
+}
+
+.Evolves {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.Ability {
+  font-size: 10px;
+  margin-right: 1rem;
+}
+
+.AboutRow {
+  margin-top: 0;
+}
+
+.AboutFirst {
+  padding-top: 60px;
+  font-size: 11px;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.About {
+  float: left;
+  padding-top: 0px;
+  font-size: 11px;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.AboutSpecies {
+  width: 13rem;
+  position: absolute;
+  font-size: 11px;
+  font-size: 11px;
+  font-weight: bold;
+  font-weight: 600;
+  color: rgb(42, 136, 73);
+}
+
+.image_1 {
+  margin-left: 2.5rem;
+  width: 10rem;
+  height: 10rem;
+}
+.image_2 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 2.5rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #d2ffd4;
+  padding: 5px;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+.image_3 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #d2ffd4;
+  padding: 5px;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(42, 136, 73);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input[type='range'] {
+  overflow: hidden;
+  width: 140px;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid rgb(42, 136, 73) ;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 10px;
+  -webkit-appearance: none;
+  height: 10px;
+  cursor: ew-resize;
+  background: rgb(42, 136, 73);
+  box-shadow: -80px 0 0 80px rgb(42, 136, 73);
+}
+
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #43e5f7;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #ffffff;
+}
+
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background-color: #9a905d;
+}
